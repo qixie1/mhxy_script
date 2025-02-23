@@ -416,8 +416,11 @@ class MhxyApplication(QMainWindow, main_win):
 
 
 if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)
-    MyUiStart = MhxyApplication()
-    MyUiStart.setFixedSize(MyUiStart.width(), MyUiStart.height())
-    MyUiStart.show()
-    app.exec()
+    try:
+        app = QtWidgets.QApplication(sys.argv)
+        MyUiStart = MhxyApplication()
+        MyUiStart.setFixedSize(MyUiStart.width(), MyUiStart.height())
+        MyUiStart.show()
+        app.exec()
+    except Exception as e:
+        print(f"An error occurred: {e}")

@@ -11,4 +11,4 @@ if %errorLevel% == 0 (
 )
 
 :: 改成绝对目录
-start pythonw "D:\workspace\chenyuan\py\project\mhxy_script\ui\mhxy_pyqt.py"
+start pythonw "D:\work\workspace\python\mhxy\mhxy_script\ui\mhxy_pyqt.py"
