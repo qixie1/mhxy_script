@@ -57,3 +57,7 @@ PS:电脑配置可以的推荐搞个虚拟机运行，这样不仅可以自定�
 * mhxy_shopping 蹲非珍品
 * mhxy_shopping2 蹲珍品
 * mhxy_shopping3 截胡珍品 (不关注、使用搜索的方式)
+
+## 其他
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config set global.trusted-host pypi.tuna.tsinghua.edu.cn
